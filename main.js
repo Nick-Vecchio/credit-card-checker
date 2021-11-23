@@ -124,3 +124,9 @@ function idInvalidCardCompanies(invalidBatch) {
 console.log(idInvalidCardCompanies([invalid1])); // Should print['visa']
 console.log(idInvalidCardCompanies([invalid2])); // Should print ['mastercard']
 console.log(idInvalidCardCompanies(batch)); // Find out which companies have mailed out invalid cards
+
+
+/**TODO: ADD FUNCTIONALITY TO USE EXTERNAL CREDIT CARD NUMBER GENERATOR 
+ * Create a function that accepts a string and converts it into an array of numbers
+ * Create a function that will convert invalid numbers into valid numbers. 
+*/
